@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # until print 10x
-x=0
+c=0
 max=10
-until [ "$x" -eq "$max" ]
+until [ "$c" -eq "$max" ]
 do
     echo "Best School"
     (( c++ ))
