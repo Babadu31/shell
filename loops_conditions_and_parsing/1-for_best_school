@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-for 1-for_best_school
-do echo 'Best School' 10
-   done
+int 'Best School' = 0
+for (int count = 0; count<=10; count++)
+    echo "Best School"
+    done
