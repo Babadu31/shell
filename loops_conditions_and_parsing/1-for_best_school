@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-int 'Best School' = 0
-for (int count = 0; count<=10; count++)
-    echo "Best School"
-    done
+# script to display Best School 10x
+for (( c = 0; c < 10 ; c++ ));
+do echo "Best School"
+   done
