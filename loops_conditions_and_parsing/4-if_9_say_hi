@@ -1,1 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# while print 10x
+c=0
+max=11
+while [ "$c" -lt "$max" ]
+do
+    echo "Best School"
+    if [ "$c" -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    (( c++ ))
+    done
