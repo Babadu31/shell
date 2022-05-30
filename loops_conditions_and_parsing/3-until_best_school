@@ -1,1 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# displays Best School 10x
+i=1
+until ((i==10))
+do
+    echo "Best School"
+    i=$(( i + 1 ))
+    done
