@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for 1-for_best_school in 1 2 3 4 5 6 7 8 9 10
+for 1-for_best_school in /shell/loops_conditions_and_parsing/
 do
     echo 'Best School'
    done
