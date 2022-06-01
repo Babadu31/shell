@@ -4,13 +4,13 @@ i=school
 if [ -e $file ]
 then
     echo "school file exists"
-    if [ ! -s "$file" ]
+    if [ ! -s $file ]
     then
 	echo "school file is empty"
     else
 	echo "school file is not empty"
     fi
-    if [ -f "$file" ]
+    if [ -f $file ]
     then
 	echo "school is a regular file"
     fi
