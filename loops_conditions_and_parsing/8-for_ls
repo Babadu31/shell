@@ -1,1 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# commentaire
+for file in *
+do
+    echo "$file" | rev | cut -d "-" -f1 | rev
+    done
