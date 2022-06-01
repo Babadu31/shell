@@ -1,1 +1,19 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# commentaire
+q=3
+j=5
+for (( i=1; i < 101; i++ ))
+do
+    if (( i % j == 0 && i % q == 0 ))
+    then
+	echo "FizzBuzz"
+    elif (( i % j == 0 ))
+    then
+	echo "Buzz"
+    elif (( i % q == 0 ))
+    then
+	echo "Fizz"
+    else
+	echo "$i"
+    fi
+    done
