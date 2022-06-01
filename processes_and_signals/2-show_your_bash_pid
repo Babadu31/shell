@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# commentaire
+ps auf | grep bash
