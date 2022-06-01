@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# un commentaire pertinent
+# commentaire
 i=0
-while ((i<=10)); do
+while ((i<10)); do
     ((i++))
     if
 	((i==4)); then
