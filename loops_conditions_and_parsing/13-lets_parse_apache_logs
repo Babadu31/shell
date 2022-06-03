@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# commentaire 
-awk '{ print $1 } ' apache_log | sort
+# commentaire
+print ifconfig | grep 'inet addr:' | awk {'print $2'}
+print awk '{print $6}' example.com | sort | uniq -c | sort -n
+done
