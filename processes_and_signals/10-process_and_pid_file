@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# bienvenue en enfer
+touch /var/run/myscript.pid
+pgrep -f "10-process_and_pid_file" > /var/run/myscript.pid
+trap "echo 'I hate the kill command'; rm /var/run/myscript.pid; exit" SIGTERM
+trap "echo 'Y U no love me?!'" SIGINT
+trap "rm /var/run/myscript.pid; exit" SIGQUIT
+while true
+do
+	echo "To infinity and beyond"
+	done
